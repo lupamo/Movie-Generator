@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie suggester</title>
+</head>
+<body>
+    <h1>Random Movie Generator.</h1>
+    <p>Select your type of genre and get moive suggested to you.</p>
+    <form id="genre-form">
+        <label for="genre">Select a genre:</label>
+        <select id="genre" name="genre">
+            <option value="28">Action</option>
+            <option value="35">Comedy</option>
+            <option value="18">Drama</option>
+            <option value="10749">Romance</option>
+            <!-- Add more genre options as needed -->
+        </select>
+        <button type="submit">Get Movie Suggestion</button>
+    </form>
+    <div id="movie-container"></div>
+ 
+    
+<script src="main.js"></script>    
+</body>
+</html>
